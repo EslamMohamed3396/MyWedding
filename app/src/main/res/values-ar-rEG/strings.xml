@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حفلتي</string>
+    <string name="main_text_hallsANDrest"> عروض القاعات </string>
+
+
+    <!--SignUp Page-->
+    <string name="sign_up_text">تسجيل عميل</string>
+    <string name="sign_up_">تسجيل</string>
+    <string name="email">الإيميل</string>
+    <string name="pass">كلمة المرور</string>
+    <string name="address">العنوان</string>
+    <string name="confirm_pass">تأكيد كلمة المرور</string>
+    <string name="username">الإسم الاول</string>
+    <string name="family_name">اسم العائلة</string>
+    <string name="phone">الجوال</string>
+    <string name="country"> الدولة   </string>
+    <string name="add_photo">تحميل الصورة الشخصية</string>
+    <string name="choose">اختيار صورة</string>
+    <string name="Plz_Choose_photo">من فضلك اختر صورة شخصية</string>
+    <string name="AskforPermission">من فضلك نحتاج تصريحك للصورة</string>
+
+
+    <!--Invalid-->
+    <string name="invalidEmail">ايميل غير صحيح</string>
+    <string name="invalidPassword">كلمة مرور غير صحيحه، يجب ان تكون اكبر من 6 ارقم او احرف</string>
+    <string name="invalidConfirmPassword">كلمة مرور غير متطابقة</string>
+    <string name="invalidPhone">الجوال غير صحيح</string>
+    <string name="invalidAddress">العنوان غير صحيح</string>
+    <string name="invalidFamliyName">الاسم غير صحيح يجب ان يكون الاسم من الاحرف فقط</string>
+    <string name="invalidName">الاسم غير صحيح</string>
+    <string name="wrong">الايميل او كلمة المرو غير صحيح</string>
+    <string name="invalidBooking">مطلوب</string>
+
+
+    <!--Login-->
+    <string name="login">تسجيل الدخول</string>
+    <string name="forget_the_password">نسيت كلمة المرور</string>
+    <string name="not_a_member_sign_up">ليس لديك حساب؟ سجل الآن</string>
+    <string name="login_again">لقد تم دخول على حسابك من جهاز اخر, من فضلك سجل دخول مرة اخري هنا</string>
+    <string name="login_error">من فضلك سجل دخول لكي تتمكن من الحجز</string>
+    <string name="title_activity_home_page">القاعات</string>
+
+
+    <!--HomePage-->
+    <string name="name">الإسم</string>
+
+    <!--Menu-->
+    <string name="my_account">حسابي</string>
+    <string name="my_reservations">حجوزاتي</string>
+    <string name="halls">القاعات</string>
+    <string name="rests">الاستراحات</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="communicate">تواصل</string>
+    <string name="share">مشاركة</string>
+    <string name="edit_profile">تعديل الصفحة الشخصية</string>
+    <string name="home">الرئيسية</string>
+
+
+    <!--EditProfile-->
+    <string name="old_password">كلمة المرور القديمة</string>
+
+
+    <!--Halls-->
+    <string name="this_is_photo_for_halls">هذه صورة للقاعه</string>
+    <string name="press_here">شاهد/اطلب السعر</string>
+
+
+    <!--display_content_home-->
+    <string name="the_services">الخدمات</string>
+
+    <!--Labels Manifest-->
+    <string name="edit">تعديل البروفايل</string>
+
+    <!--Location-->
+    <string name="loc">موقعي</string>
+
+    <!--Network-->
+
+
+    <!--Detils-->
+    <string name="hotels">الفنادق</string>
+    <string name="guest_number">عدد الضيوف</string>
+    <string name="price">السعر</string>
+    <string name="celepe_type">نوع الاحتفال</string>
+    <string name="start_date">تاريخ</string>
+    <string name="kitchens">المطبخ</string>
+    <string name="book_now">احجز الان</string>
+    <string name="party_services">خدمات الحفلة</string>
+    <string name="car_preparation">تجهيز السيارة</string>
+    <string name="cars">السيارات</string>
+    <string name="both">رجال ونساء</string>
+    <string name="female">نساء</string>
+    <string name="male">رجال</string>
+    <string name="guest_kind">الضيوف</string>
+    <string name="guest_umber">عدد الضيوف</string>
+    <string name="error">خطأ في الشبكة</string>
+    <string name="contact">راسلنا</string>
+    <string name="send">ارسل</string>
+    <string name="message">محتوي الرسالة</string>
+    <string name="open_buffet">بوفيه مفتوح</string>
+    <string name="food_western">غربي</string>
+    <string name="food_east">شرقي</string>
+
+
+    <!--my reservation-->
+    <string name="number_reser">الرقم التسلسي</string>
+    <string name="date_reser">تاريخ الحجز</string>
+    <string name="status_reser">حالة الحجز</string>
+    <string name="pay">دفع</string>
+    <string name="cancel">الغاء</string>
+    <string name="reservations">الحجوزات</string>
+    <string name="booking">حجز</string>
+
+
+    <!--Forgot Password-->
+    <string name="check_email">من فضلك تفحص بريدك الالكتروني</string>
+
+
+    <!--infoWindow-->
+    <string name="error_location">خطأ في الخريطه برجاء اعادة تشغيل التطبيق</string>
+    <string name="errorOrAdded">خطأ في الشبكه او هذا الايميل مستخدم من قبل</string>
+    <string name="chooseCountry">اختر الدولة</string>
+    <string name="maps">الخريطة والعروض</string>
+    <string name="emailCkecking">تفحص البريد الالكتروني</string>
+    <string name="editing">جاري التعديل</string>
+    <string name="checking">جاري الفخص</string>
+    <string name="signing">جاري التسجيل</string>
+    <string name="sendto">جاري ارسال الرسالة</string>
+    <string name="getting">جاري الحصول على البيانات</string>
+    <string name="starss">اختر عدد النجوم</string>
+    <string name="add_fav">تم الحفظ في المفضلة</string>
+    <string name="added_before">تمت اضافة هذه القاعة من قبل</string>
+    <string name="empty">لا يوجد قاعات في المفضلة</string>
+    <string name="fav">المفضلة</string>
+    <string name="delete_fav">تم الحذف</string>
+
+
+</resources>

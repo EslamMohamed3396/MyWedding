@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Wedding</string>
+
+    <string name="main_text_hallsANDrest">offers Halls</string>
+
+
+    <!--SignUp Page-->
+    <string name="sign_up_text">Sign Up User</string>
+    <string name="sign_up_">Sign Up</string>
+    <string name="email">Email </string>
+    <string name="pass">Password</string>
+    <string name="address">Address</string>
+    <string name="confirm_pass">Confirm Pass</string>
+    <string name="username">First Name</string>
+    <string name="family_name">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="country">Country  </string>
+    <string name="add_photo">Upload Profile Picture</string>
+    <string name="choose">Choose Photo</string>
+    <string name="Plz_Choose_photo">Please Choose Photo</string>
+    <string name="AskforPermission">please we need your Permission</string>
+
+
+    <!--Invalid-->
+    <string name="invalidEmail">Invalid Email</string>
+    <string name="invalidPassword">Invalid Password,Should be greater than 6 characters or numbers only</string>
+    <string name="invalidConfirmPassword">Not Match</string>
+    <string name="invalidPhone">Invalid Phone</string>
+    <string name="invalidAddress">Invalid Address</string>
+    <string name="invalidFamliyName">Invalid Name,Should be characters only</string>
+    <string name="invalidName">Invalid Name</string>
+    <string name="invalidBooking">Required</string>
+
+    <!--Login-->
+    <string name="login">Login</string>
+    <string name="forget_the_password">forget the password</string>
+    <string name="loading">Please Wait</string>
+    <string name="wrong">The User Name or Password Wrong</string>
+    <string name="not_a_member_sign_up">Not a member?Sign up</string>
+    <string name="title_activity_home_page">The Halls</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login_again">You Accessed This Account From Another Device, Please Log in Again</string>
+    <string name="login_error">Please Login First To Make Reservation</string>
+
+    <!--HomePage-->
+    <string name="name">Name</string>
+
+    <!--Menu-->
+    <string name="my_account">My Account</string>
+    <string name="my_reservations">My Reservations</string>
+    <string name="halls">The Halls</string>
+    <string name="rests">The Rests</string>
+    <string name="log_out">Log out</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="home">Home</string>
+
+
+    <!--EditProfile-->
+    <string name="old_password">Old Password</string>
+    <string name="NoImage">Please Select Photo</string>
+
+    <!--Halls-->
+    <string name="this_is_photo_for_halls">This is Photo For Halls</string>
+    <string name="press_here">Press Here</string>
+
+
+    <!--display_content_home-->
+    <string name="the_services">The Services</string>
+
+    <!--API KEY-->
+    <string name="google_api_key">AIzaSyBY0WMFC5XKsRaB-dmx2rPD84ytJVsH2Xg</string>
+
+    <!--Labels Manifest-->
+    <string name="edit">Edit Profile</string>
+
+    <!--Location-->
+    <string name="loc">My Location</string>
+
+    <!--Network-->
+
+    <!--Detils-->
+    <string name="hotels">Hotels</string>
+    <string name="guest_number">Guest number</string>
+    <string name="price">Price</string>
+    <string name="celepe_type">Celepe Type</string>
+    <string name="start_date">Start Date</string>
+    <string name="kitchens">Kitchens</string>
+    <string name="book_now">Book Now</string>
+    <string name="party_services">Party Srvices</string>
+    <string name="car_preparation">Car Preparation</string>
+    <string name="cars">cars</string>
+    <string name="both">both</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="guest_kind">Guest</string>
+    <string name="guest_umber">Guest Number</string>
+    <string name="plus">+</string>
+    <string name="zero">0</string>
+    <string name="minus">-</string>
+    <string name="error">Network Error</string>
+    <string name="contact">Contact Us</string>
+    <string name="send">send</string>
+    <string name="message">Message</string>
+    <string name="open_buffet">بوفيه مفتوح</string>
+    <string name="food_western">غربي</string>
+    <string name="food_east">شرقي</string>
+
+
+    <!--content_desc_photo-->
+    <string name="content_desc">This is A photo</string>
+
+    <!--my reservation-->
+    <string name="number_reser">ID</string>
+    <string name="date_reser">Date of reservation</string>
+    <string name="status_reser">Status of reservation</string>
+    <string name="pay">pay</string>
+    <string name="cancel">cancel</string>
+    <string name="reservations">Reservation</string>
+    <string name="booking">Booking</string>
+
+    <!--Forgot Password-->
+    <string name="check_email">Check Your Email</string>
+    <string name="error_location">Can\'t Load Your Location Please restart Application</string>
+    <string name="chooseCountry">Choose Country</string>
+    <string name="errorOrAdded">Network Error or this emails is added before</string>
+
+
+    <!--infoWindow-->
+    <string name="maps">Map and Offers</string>
+    <string name="emailCkecking">Check Your Email</string>
+    <string name="editing">Editing</string>
+    <string name="sending">Sending to Email</string>
+    <string name="checking">Checking</string>
+    <string name="signing">Signing Up</string>
+    <string name="sendto">Sending</string>
+    <string name="getting">Getting Information</string>
+    <string name="starss">Choose The Stars</string>
+    <string name="add_fav">Added to Favorite</string>
+    <string name="added_before">Added Before</string>
+    <string name="empty">No Halls in Favorite</string>
+    <string name="fav">Favorite</string>
+    <string name="delete_fav">Halls Deleted</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>
