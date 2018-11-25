@@ -66,8 +66,6 @@ public class ListOffersHomeAdapters extends RecyclerView.Adapter<ListOffersHomeA
     class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         @BindView(R.id.tv_name_hall_list_home)
         TextView hallName;
-        //        @BindView(R.id.tv_desc_hall_list_home)
-//        TextView descName;
         @BindView(R.id.im_hall_list_home)
         ImageView hallImage;
 

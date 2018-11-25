@@ -404,7 +404,7 @@ public class DetailsOffersActivity extends AppCompatActivity {
                         }
                     }
                 } else {
-                    Toasty.error(DetailsOffersActivity.this, /*getString(R.string.error)*/"" + response, Toast.LENGTH_LONG).show();
+                    Toasty.error(DetailsOffersActivity.this, getString(R.string.error), Toast.LENGTH_LONG).show();
                     Log.d("reservationOffers", "" + response);
 
                 }
@@ -602,7 +602,7 @@ public class DetailsOffersActivity extends AppCompatActivity {
                     }
                     listKitchenInHallsAdapter.setListServices(kitchenItems, kindselected);
                 } else {
-                    Toasty.info(DetailsOffersActivity.this, "No Kitchen", Toast.LENGTH_LONG).show();
+                    Toasty.info(DetailsOffersActivity.this, getString(R.string.no_kitchen), Toast.LENGTH_LONG).show();
                 }
             }
 
@@ -676,7 +676,7 @@ public class DetailsOffersActivity extends AppCompatActivity {
                         }
                         listHotelInHallsAdapter.setListServices(hotels, Integer.parseInt(mHotelSelected));
                     } else {
-                        Toasty.info(DetailsOffersActivity.this, "No Hotel Available ", Toast.LENGTH_LONG).show();
+                        Toasty.info(DetailsOffersActivity.this, getString(R.string.no_hotel), Toast.LENGTH_LONG).show();
                     }
                 }
             }
@@ -845,7 +845,7 @@ public class DetailsOffersActivity extends AppCompatActivity {
                     inc--;
                     mGuest.setText(String.valueOf(inc));
                 } else {
-                    Toasty.info(DetailsOffersActivity.this, "Can't Less 0", Toast.LENGTH_LONG).show();
+                    Toasty.info(DetailsOffersActivity.this, getString(R.string.lessZero), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -863,7 +863,7 @@ public class DetailsOffersActivity extends AppCompatActivity {
                     celebrationsModels = response.body().getCelebrations();
                     fillTheSpinnerCelebrations();
                 } else {
-                    Toasty.error(DetailsOffersActivity.this, "Network Error", Toast.LENGTH_LONG).show();
+                    Toasty.error(DetailsOffersActivity.this, getString(R.string.error), Toast.LENGTH_LONG).show();
                 }
             }
 
@@ -887,7 +887,7 @@ public class DetailsOffersActivity extends AppCompatActivity {
                     brandModels = response.body().getBrands();
                     fillTheSpinnerCars();
                 } else {
-                    Toasty.error(DetailsOffersActivity.this, "Network Error", Toast.LENGTH_LONG).show();
+                    Toasty.error(DetailsOffersActivity.this,  getString(R.string.error), Toast.LENGTH_LONG).show();
                 }
             }
 
@@ -938,7 +938,7 @@ public class DetailsOffersActivity extends AppCompatActivity {
                     preparations = response.body().getPreparation();
                     fillTheSpinnerPreparations();
                 } else {
-                    Toasty.error(DetailsOffersActivity.this, "Network Error", Toast.LENGTH_LONG).show();
+                    Toasty.error(DetailsOffersActivity.this,  getString(R.string.error), Toast.LENGTH_LONG).show();
                 }
             }
 

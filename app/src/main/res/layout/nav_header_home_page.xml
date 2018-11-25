@@ -35,6 +35,7 @@
             android:layout_height="@dimen/_96sdp"
             android:layout_marginStart="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_10sdp"
+            android:contentDescription="@string/content_desc"
             android:scaleType="centerCrop"
             app:civ_border_color="@color/overlayBackground"
             app:layout_constraintLeft_toLeftOf="parent"

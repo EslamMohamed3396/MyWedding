@@ -21,14 +21,9 @@ import com.example.eslam.mywedding.Adapters.List_Halls_Adapters;
 import com.example.eslam.mywedding.HelperMethod.ConnectionDetector;
 import com.example.eslam.mywedding.Models.HallsModels.Hall;
 import com.example.eslam.mywedding.R;
-import com.example.eslam.mywedding.Service.MyJopService;
 import com.example.eslam.mywedding.ViewModels.ViewHallsModel;
-import com.firebase.jobdispatcher.Constraint;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
 import com.firebase.jobdispatcher.GooglePlayDriver;
-import com.firebase.jobdispatcher.Job;
-import com.firebase.jobdispatcher.Lifetime;
-import com.firebase.jobdispatcher.Trigger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -72,7 +67,7 @@ public class GetListHallFragment extends Fragment implements List_Halls_Adapters
         mFirebaseJobDispatcher = new FirebaseJobDispatcher(new GooglePlayDriver(getContext()));
         unbinder = ButterKnife.bind(this, rootView);
         preapareTheRecyclreHalls();
-        getService();
+
         if (ConnectionDetector.isConnectingToInternet(getContext())) {
             loadListHalls();
 
@@ -81,17 +76,6 @@ public class GetListHallFragment extends Fragment implements List_Halls_Adapters
         }
 
         return rootView;
-    }
-
-    private void getService() {
-        Job job = mFirebaseJobDispatcher.newJobBuilder()
-                .setService(MyJopService.class)
-                .setLifetime(Lifetime.FOREVER)
-                .setTag(MY_TAG)
-                .setTrigger(Trigger.executionWindow(10, 12))
-                .setConstraints(Constraint.ON_ANY_NETWORK)
-                .setReplaceCurrent(false).build();
-        mFirebaseJobDispatcher.mustSchedule(job);
     }
 
     @Override
@@ -106,7 +90,6 @@ public class GetListHallFragment extends Fragment implements List_Halls_Adapters
         mRvHalls.setLayoutManager(mGridLayoutManager);
         mRvHalls.setAdapter(listHallsAdapters);
     }
-
 
 
     private void loadListHalls() {

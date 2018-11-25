@@ -336,7 +336,6 @@ public class DetailsHallsActivity extends AppCompatActivity {
         bindRecyclerHotels();
         prepareRecyclerFood();
         isFav();
-        putInArrayList();
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new myTaskTimer(), 2000, 4000);
 
@@ -383,22 +382,6 @@ public class DetailsHallsActivity extends AppCompatActivity {
         new FillSpinnerTaskCelebrations().execute();
 
     }
-
-    private void putInArrayList() {
-        List<String> stringList = new ArrayList<>();
-        stringList.add(name);
-        stringList.add(address);
-        stringList.add(String.valueOf(price));
-        stringList.add(phone);
-        List<String> list = Shared_Preferences.getList(this);
-        if (list != null) {
-            Shared_Preferences.saveArrayList(stringList, this);
-        } else {
-            Shared_Preferences.saveArrayList(stringList, this);
-
-        }
-    }
-
 
     private void isFav() {
         LiveData<List<Hall>> loadAllHallByID = mDataBaseHalls.daoHalls().loadAllHallByID(hallId);
@@ -993,7 +976,7 @@ public class DetailsHallsActivity extends AppCompatActivity {
                     inc--;
                     mGuest.setText(String.valueOf(inc));
                 } else {
-                    Toast.makeText(DetailsHallsActivity.this, "Can't Less 0", Toast.LENGTH_LONG).show();
+                    Toast.makeText(DetailsHallsActivity.this, getString(R.string.lessZero), Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -1058,7 +1041,7 @@ public class DetailsHallsActivity extends AppCompatActivity {
                         }
                     }
                 } else {
-                    Toasty.error(DetailsHallsActivity.this, /*getString(R.string.error)*/"" + response, Toast.LENGTH_LONG).show();
+                    Toasty.error(DetailsHallsActivity.this, getString(R.string.error), Toast.LENGTH_LONG).show();
                     Log.d("reservation", "" + response);
 
                 }

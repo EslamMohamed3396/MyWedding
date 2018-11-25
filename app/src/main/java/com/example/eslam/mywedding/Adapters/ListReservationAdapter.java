@@ -99,7 +99,7 @@ public class ListReservationAdapter extends RecyclerView.Adapter<ListReservation
                             alertDialog.dismiss();
                             if (response.isSuccessful()) {
                                 if (response.body() != null) {
-                                    Toasty.success(context, "The Reservation is Canceled", Toast.LENGTH_LONG).show();
+                                    Toasty.success(context,  context.getString(R.string.Canceld), Toast.LENGTH_LONG).show();
                                     holder.cancel.setVisibility(View.GONE);
                                     holder.pay.setVisibility(View.GONE);
                                     holder.tv_status.setText("تم الالغاء");

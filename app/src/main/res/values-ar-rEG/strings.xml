@@ -134,6 +134,11 @@
     <string name="empty">لا يوجد قاعات في المفضلة</string>
     <string name="fav">المفضلة</string>
     <string name="delete_fav">تم الحذف</string>
+    <string name="no_kitchen">No Kitchen</string>
+    <string name="no_hotel">No Hotel</string>
+    <string name="lessZero">Can\'t Less 0</string>
+    <string name="Canceld">The Reservation is Canceld</string>
+    <string name="no_reser">You Don\'t Have Reservation yet</string>
 
 
 </resources>

@@ -233,6 +233,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/weddingphoto"
+                        android:contentDescription="@string/content_desc"
                         android:tint="@color/colorPrimary" />
 
                     <TextView
@@ -274,6 +275,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:gravity="center"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/baseline_date_range_black_24"
                             android:tint="@color/colorPrimary" />
 
@@ -323,6 +325,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:src="@drawable/clock"
+                                android:contentDescription="@string/content_desc"
                                 android:tint="@color/colorPrimary" />
 
                             <EditText
@@ -356,6 +359,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:src="@drawable/user_avatar"
+                        android:contentDescription="@string/content_desc"
                         android:tint="@color/colorPrimary" />
 
                     <TextView
@@ -414,6 +418,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/user_avatar"
+                            android:contentDescription="@string/content_desc"
                             android:tint="@color/colorPrimary" />
 
                         <TextView
@@ -479,6 +484,7 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:gravity="center"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/car"
                             android:tint="@color/colorPrimary" />
 
@@ -531,6 +537,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:contentDescription="@string/content_desc"
                         android:src="@drawable/car"
                         android:tint="@color/colorPrimary" />
 
@@ -588,6 +595,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/baseline_date_range_black_24"
                             android:tint="@color/colorPrimary" />
 
@@ -638,6 +646,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
+                        android:contentDescription="@string/content_desc"
                         android:src="@drawable/baseline_meeting_room_black_24"
                         android:tint="@color/colorPrimary" />
 
@@ -715,6 +724,7 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:gravity="center"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/food"
                             android:tint="@color/colorPrimary" />
 
@@ -785,6 +795,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_favorite_border"
         app:elevation="6dp"
+        android:contentDescription="@string/content_desc"
         app:layout_anchor="@+id/app_bar_layout"
         app:layout_anchorGravity="bottom|right|end"
         app:pressedTranslationZ="@dimen/_12sdp" />

@@ -203,6 +203,7 @@
                     android:layout_width="@dimen/_96sdp"
                     android:layout_height="@dimen/_80sdp"
                     android:layout_marginStart="@dimen/_40sdp"
+                    android:contentDescription="@string/content_desc"
                     android:scaleType="centerCrop"
                     android:src="@drawable/tom"
                     app:layout_constraintBottom_toBottomOf="parent"

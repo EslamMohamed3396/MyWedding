@@ -145,6 +145,11 @@
     <string name="delete_fav">Halls Deleted</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
+    <string name="no_kitchen">No Kitchen</string>
+    <string name="no_hotel">No Hotel</string>
+    <string name="lessZero">Can\'t Less 0</string>
+    <string name="Canceld">The Reservation is Canceled</string>
+    <string name="no_reser">You Don\'t Have Reservation yet</string>
 
 
 </resources>

@@ -17,6 +17,7 @@
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_21sdp"
+            android:contentDescription="@string/content_desc"
             android:src="@drawable/hotel" />
 
         <TextView

@@ -19,6 +19,7 @@
             android:layout_height="@dimen/_15sdp"
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_21sdp"
+            android:contentDescription="@string/content_desc"
             android:src="@drawable/baseline_local_offer_black_24" />
 
         <TextView
@@ -43,13 +44,6 @@
             android:textStyle="bold"
             tools:text="مزمار" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_5sdp"
-            android:layout_marginTop="@dimen/_25sdp"
-            android:visibility="gone"
-            android:src="@drawable/ic_attach_money" />
 
         <CheckBox
             android:id="@+id/service_check"

@@ -91,23 +91,7 @@
             android:parentActivityName=".Activites.FavoriteHalls"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
 
-        <service
-            android:name=".Service.MyJopService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
-            </intent-filter>
-        </service>
 
-        <receiver android:name=".Widget.HallsWidget">
-            <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.appwidget.provider"
-                android:resource="@xml/halls_widget_info" />
-        </receiver>
     </application>
 
 </manifest>

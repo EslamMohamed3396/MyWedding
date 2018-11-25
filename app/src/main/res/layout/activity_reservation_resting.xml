@@ -216,6 +216,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:contentDescription="@string/content_desc"
                         android:src="@drawable/weddingphoto"
                         android:tint="@color/colorPrimary" />
 
@@ -254,9 +255,9 @@
 
 
                         <ImageView
-
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/content_desc"
                             android:gravity="center"
                             android:src="@drawable/baseline_date_range_black_24"
                             android:tint="@color/colorPrimary" />
@@ -305,6 +306,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
+                                android:contentDescription="@string/content_desc"
                                 android:src="@drawable/clock"
                                 android:tint="@color/colorPrimary" />
 
@@ -336,6 +338,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:contentDescription="@string/content_desc"
                         android:src="@drawable/user_avatar"
                         android:tint="@color/colorPrimary" />
 
@@ -394,6 +397,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/user_avatar"
                             android:tint="@color/colorPrimary" />
 
@@ -459,6 +463,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
+                            android:contentDescription="@string/content_desc"
                             android:gravity="center"
                             android:src="@drawable/car"
                             android:tint="@color/colorPrimary" />
@@ -511,6 +516,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
+                        android:contentDescription="@string/content_desc"
                         android:gravity="center"
                         android:src="@drawable/car"
                         android:tint="@color/colorPrimary" />
@@ -569,6 +575,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/baseline_date_range_black_24"
                             android:tint="@color/colorPrimary" />
 
@@ -618,6 +625,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
+                        android:contentDescription="@string/content_desc"
                         android:gravity="center"
                         android:src="@drawable/baseline_meeting_room_black_24"
                         android:tint="@color/colorPrimary" />
@@ -643,15 +651,17 @@
                         app:switchDesign="android"
                         app:switchToggleCheckedColor="@color/colorPrimary"
                         app:switchToggleNotCheckedColor="#ffffff" />
+
                     <TextView
                         android:id="@+id/textstars_resting"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/starss"
                         android:textColor="@color/colorPrimary"
-                        android:visibility="gone"
                         android:textSize="@dimen/_10ssp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
                     <Spinner
                         android:id="@+id/spinner_hotels_stars_resting"
                         android:layout_width="wrap_content"
@@ -696,6 +706,7 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:gravity="center"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/food"
                             android:tint="@color/colorPrimary" />
 

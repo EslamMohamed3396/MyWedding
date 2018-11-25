@@ -78,7 +78,7 @@ public class MyReservationFragment extends Fragment {
                     if (response.body().getReservations() != null) {
                         listReservation.setListServices(response.body().getReservations());
                     } else {
-                        Toasty.info(getContext(), "You Don't Have Reservation yet", Toast.LENGTH_LONG).show();
+                        Toasty.info(getContext(),  getString(R.string.no_reser), Toast.LENGTH_LONG).show();
                     }
                 }
             }

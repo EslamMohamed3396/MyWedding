@@ -27,6 +27,7 @@
                     android:layout_height="140dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/_50sdp"
+                    android:contentDescription="@string/content_desc"
                     android:src="@drawable/tom"
                     app:civ_border_color="@color/white"
                     app:civ_border_width="2dp" />
@@ -66,6 +67,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/user_avatar"
                             android:tint="@color/colorPrimary"
 
@@ -96,6 +98,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/user_avatar"
                             android:tint="@color/colorPrimary"
 
@@ -127,6 +130,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/baseline_call_black_24"
                             android:tint="@color/colorPrimary"
 
@@ -159,6 +163,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
+                            android:contentDescription="@string/content_desc"
                             android:src="@drawable/baseline_place_black_24"
                             android:tint="@color/colorPrimary"
 
@@ -197,9 +202,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/_50sdp"
             android:layout_marginTop="35dp"
             android:background="@drawable/btn"
-            android:layout_margin="@dimen/_50sdp"
             android:text="@string/edit_profile"
             android:textColor="#fff" />
 

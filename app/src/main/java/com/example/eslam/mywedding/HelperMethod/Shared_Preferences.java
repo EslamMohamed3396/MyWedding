@@ -24,10 +24,6 @@ public final class Shared_Preferences {
     private static final String PREF_COUNTRY_ID = "pref_Contry_id";
     private static final String PREF_ADDRESS = "pref_Address";
 
-    private static final String PREFERENCES_WIDGET = "Prefs_Account";
-    private static final String PREF_NAME_WIDGET = "pref_name_widget";
-
-
     private static SharedPreferences mPref;
     private static SharedPreferences.Editor mEditor;
 
@@ -42,24 +38,9 @@ public final class Shared_Preferences {
 
 
 
-    public static void saveArrayList(List<String> list, Context context) {
-        SharedPreferences prefs = context.getSharedPreferences(PREFERENCES_WIDGET, context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
-        Gson gson = new Gson();
-        String json = gson.toJson(list);
-        editor.putString(PREF_NAME_WIDGET, json);
-        editor.apply();
-    }
 
 
-    public static List<String> getList(Context context) {
-        SharedPreferences prefs = context.getSharedPreferences(PREFERENCES_WIDGET, context.MODE_PRIVATE);
-        Gson gson = new Gson();
-        String json = prefs.getString(PREF_NAME_WIDGET, null);
-        Type type = new TypeToken<List<String>>() {
-        }.getType();
-        return gson.fromJson(json, type);
-    }
+
 
     public static boolean getLogin(Context context) {
         mPref = context.getSharedPreferences(PREFERENCES_ACCOUNT, Context.MODE_PRIVATE);

@@ -332,7 +332,6 @@ public class SignUp extends AppCompatActivity {
     }
 
     private class FillSpinnerTask extends AsyncTask<Void, Void, Void> {
-
         @Override
         protected Void doInBackground(Void... voids) {
             getContryFromApi();
